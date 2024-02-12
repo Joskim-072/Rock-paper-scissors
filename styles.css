@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+header h1{
+    font-size: 5em;
+}
+main{
+    height: 100%;
+}
+main .container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-container button{
+    background: rgba(255, 255, 255,0.0);
+    border: 2px solid white;
+    font-size: 3em;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.playersDiv{
+    margin: 20px 0;
+    display: flex;
+    gap: 100px;
+
+}
+.playersDiv p{
+    font-size: x-large;
+}
+.result{
+    font-size: x-large;
+}
